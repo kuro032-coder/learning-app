@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/learning-app/static/js/main.31d6cfe0.js",
-    "index.html": "/learning-app/index.html"
+    "main.js": "/static/js/main.31d6cfe0.js",
+    "index.html": "/index.html"
   },
   "entrypoints": [
     "static/js/main.31d6cfe0.js"

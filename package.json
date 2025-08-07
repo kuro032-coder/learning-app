@@ -1,5 +1,4 @@
 {
-  "homepage": "https://kuro032-coder.github.io/learning-app/",
   "name": "react-app",
   "private": false,
   "version": "0.0.0",
@@ -10,8 +9,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build && shx cp .nojekyll build/",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build && shx touch dist/.nojekyll",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
