@@ -1,7 +1,7 @@
 {
   "homepage": "https://kuro032-coder.github.io/learning-app/",
   "name": "react-app",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
