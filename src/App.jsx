@@ -8,7 +8,7 @@ import QuestionList from './pages/QuestionList'
 function App() {
 
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
       <Routes>
         <Route path='/' element={< Home/>} />
         <Route path='/question-form' element={< QuestionForm />} />
@@ -16,7 +16,7 @@ function App() {
         <Route path='/question-list-form' element={< QuestionList />} />
 
       </Routes>
-    </BrowserRouter>
+    // </BrowserRouter>
   )
 }
 
