@@ -1,8 +1,42 @@
-# React + Vite
+## 概要
+一問一答形式で資格試験の学習ができるシンプルな React アプリです。  
+問題を登録してランダム出題に挑戦でき、暗記学習をサポートします。  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## デモURL
+https://kuro032-coder.github.io/learning-app/
 
-Currently, two official plugins are available:
+## 主な機能
+- 問題の登録（LocalStorage に保存）
+- ランダム出題で学習
+- 問題一覧表示 & 削除機能
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## 使い方
+
+### 1. 問題の登録
+- 問題文と答えを入力して「保存」ボタンを押すと保存されます。  
+- データは LocalStorage に保存されるため、ブラウザを閉じても保持されます。  
+
+### 2. 問題実施
+- 「ランダムに出題」ボタンで問題がランダム表示されます。  
+- 「答え」ボタンで答えを確認できます。  
+
+### 3. 問題一覧
+- 登録した問題を一覧表示。  
+- 各問題の「削除」ボタンで個別に削除可能。  
+
+## 開発環境
+- **React (Vite)**
+- **JavaScript**
+- **LocalStorage**
+- **GitHub Pages**（デプロイ）
+
+
+## 工夫したポイント
+- React Router を用いて複数画面を実現  
+- LocalStorage を利用し、サーバー不要でデータ保持  
+- GitHub Pages を活用し、無料で公開
+
+
+## 更新履歴
+2025/08/21: [README.mdを新規作成]
